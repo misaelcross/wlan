@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso de Fatura Vencida - WLAN Fibra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container max-w-[500px] mx-auto bg-white">
+        <!-- Cabeçalho com logo -->
+        <div class="bg-[#FF5F00] text-white text-center py-4">
+            <img src="LOGO WFIBRA.png" alt="WLAN Fibra" class="h-16 inline-block">
+        </div>
+
+        <!-- Aviso de fatura vencida -->
+        <div class="bg-[#F8EFEA] text-white text-center py-6 gap-4 flex flex-col">
+            <p class="text-sm mb-1 text-[#BA957E]">Aviso de fatura vencida</p>
+            <div class="border-2 border-[#F0DDD1] rounded-md mx-8 py-3 px-4 text-black">
+                <p class="font-bold px-12 text-[#FF5F00]">Imprevistos acontecem, estamos aqui para ajudar!</p>
+            </div>
+        </div>
+
+        <!-- Conteúdo principal -->
+        <div class="px-8 py-4">
+            <p class="text-sm mb-4 text-[#484A4D]">Olá, [Nome do Cliente]</p>
+            <div class="border rounded-md p-3 mb-3">
+                <p class="text-sm text-[#484A4D]">
+                    Ainda não identificamos o pagamento da sua fatura do <strong>Plano WLAN FIBRA</strong> no valor de <strong>R$ [Valor]</strong>, vencida em <strong>[Data de vencimento]</strong>.
+                </p>
+            </div>
+
+            <p class="text-sm mb-4 text-[#484A4D]">Você pode regularizar sua situação:</p>
+
+            <!-- Opções de pagamento -->
+            <div class="mb-4">
+                <!-- Via PIX -->
+                <div class="border rounded-md p-3 mb-3 flex items-center">
+                    <div class="bg-[#F4F5F5] rounded-full p-2.5 mr-3">
+                        <img src="logo-pix-520x520.png" alt="" class="h-4 w-5">
+                    </div>
+                    <div>
+                        <p class="font-bold text-sm text-[#55565A]">Via PIX</p>
+                        <p class="text-xs text-[#484A4D]">Baixe nosso APP na App Store ou Google Play e regularize em instantes.</p>
+                        <div class="flex gap-2 mt-1">
+                            <a href="https://play.google.com/store/apps/details?id=com.rbxsoft.wlan&hl=pt_BR" target="_blank">
+                                <img src="Google.svg" alt="Google Play" class="h-8">
+                            </a>
+                            <a href="https://apps.apple.com/br/app/wlan-app/id1588250929" target="_blank">
+                                <img src="Apple.svg" alt="App Store" class="h-8">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Por meio do boleto -->
+                <div class="border rounded-md p-3 mb-3 flex items-center">
+                    <div class="bg-[#F4F5F5] rounded-full p-2 mr-3">
+                        <img src="barcode.png" alt="" class="h-5">
+                    </div>
+                    <div>
+                        <p class="font-bold text-sm text-[#55565A]">Por meio do boleto</p>
+                        <p class="text-xs text-[#484A4D]">Enviado para o e-mail</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Código de barras -->
+            <div class="bg-[#F8EFEA] p-3 text-center mb-6">
+                <p class="text-sm font-bold mb-2 text-[#55565A]">Código de barras:</p>
+                <div class="bg-white p-3 rounded-md border-2 border-[#E0E0E3]">
+                    <p class="text-xs text-[#6B6C70]">[código de barras do PIX]</p>
+                </div>
+                
+            </div>
+            <div class="border rounded-md p-3 mb-5 gap-2 flex flex-col">
+                <div class="text-sm font-bold text-[#484A4D]">
+                    Regularize sua situação e evite a suspensão do serviço.
+                </div>
+                <p class="text-xs text-[#484A4D]">
+                    Sabemos que imprevistos acontecem, e estamos aqui para ajudar! Se precisar de suporte ou tiver dúvidas, entre em contato conosco. Não queremos que você fique sem conexão.
+                </p>
+            </div>
+            
+            <div class="bg-[#F4F5F5] py-4">
+            <!-- Selo -->
+            <div class="flex justify-center">
+                <img src="Selo.png" alt="" class="h-32">
+            </div>
+
+            <!-- Seja um cliente -->
+            <div class="text-center mb-6">
+                <p class="font-bold text-sm mb-1 text-[#484A4D]">Seja um cliente de Fibra</p>
+                <p class="text-sm mb-3 text-[#484A4D]">Pague suas contas em dia, e conheça a vários benefícios.</p>
+                <a href="https://wa.me/9131822990" class="bg-[#FF5F00] text-white px-4 py-2 rounded-md text-sm font-bold inline-block">Eu quero</a>
+            </div>
+            </div>
+
+            <!-- Redes sociais -->
+            <div class="text-center my-6">
+                <p class="text-xs text-[#6B6C70] mb-2">Siga a WLAN FIBRA nas redes sociais:</p>
+                <div class="flex justify-center space-x-3">
+                    <a href="https://www.facebook.com/wlaninternetfibra" class="text-gray-600 hover:text-[#FF5F00]">
+                        <i class="fa-brands fa-facebook-f text-xl"></i>
+                    </a>
+                    <a href="https://www.instagram.com/wlaninternetfibra/" class="text-gray-600 hover:text-[#FF5F00]">
+                        <i class="fa-brands fa-instagram text-xl"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@wlaninternetfibra" class="text-gray-600 hover:text-[#FF5F00]">
+                        <i class="fa-brands fa-youtube text-xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/wlan-internet" class="text-gray-600 hover:text-[#FF5F00]">
+                        <i class="fa-brands fa-linkedin-in text-xl"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@wlaninternetfibra" class="text-gray-600 hover:text-[#FF5F00]">
+                        <i class="fa-brands fa-tiktok text-xl"></i>
+                    </a>
+                    <a href="https://wa.me/3191234567" class="text-gray-600 hover:text-[#FF5F00]">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Rodapé -->
+        <div class="bg-[#F8EFEA] py-3 text-center gap-4 flex flex-col">
+            <div class="flex justify-center">
+                <img src="Logo Wlan Fibra.png" alt="WLAN Fibra" class="h-12 inline-block">
+            </div>
+            
+            <div class="flex justify-center text-xs text-[#484A4D] mt-1 space-x-4">
+                <a href="#" class="hover:underline">Área do Cliente</a>
+                <span>|</span>
+                <a href="#" class="hover:underline">Fique por dentro</a>
+                <span>|</span>
+                <a href="#" class="hover:underline">Suporte/Contato</a>
+            </div>
+        </div>
+        
+        <!-- Informações de contato -->
+        <div class="px-8 py-4">
+            <!-- WhatsApp -->
+            <div class="flex items-center border-2 border-[#F5F5FD] rounded-lg p-4 mb-4">
+                <div class="bg-[#FCF4EF] rounded-lg p-2.5 mr-3">
+                    <i class="fa-brands fa-whatsapp h-5 w-5 text-[#FF5F00] flex justify-center items-center"></i>
+                </div>
+                <div>
+                    <p class="font-semibold text-sm text-[#6B6C70]">WhatsApp WLAN FIBRA</p>
+                    <p class="text-xs text-[#6B6C70]">Nosso canal oficial para você resolver problemas ou pagar sua fatura. Atendimento 24 horas por dia, 7 dias da semana. Adicione-nos ao seu contato: <a href="https://wa.me/9131822990" class="font-bold text-[#FF5F00]">(91) 3182-2990</a></p>
+                </div>
+            </div>
+            
+            <!-- Pagamento automático -->
+            <div class="flex items-center border-2 border-[#F5F5FD] rounded-lg p-4 mb-4">
+                <div class="bg-[#FCF4EF] rounded-lg p-2.5 mr-3">
+                    <i class="fa-solid fa-credit-card h-5 w-5 text-[#FF5F00] flex justify-center items-center"></i>
+                </div>
+                <div>
+                    <p class="font-semibold text-sm text-[#6B6C70]">Automatize seu pagamento e monitore suas contas sempre em dia</p>
+                    <p class="text-xs text-[#6B6C70]">Com o pagamento automático no cartão de crédito. O débito é feito no dia do vencimento. <a href="https://wa.me/9131822990" class="font-bold text-[#FF5F00]">Saiba mais aqui</a></p>
+                </div>
+            </div>
+            
+            <!-- App WLAN FIBRA -->
+            <div class="flex items-center border-2 border-[#F5F5FD] rounded-lg p-4 mb-4">
+                <div class="bg-[#FCF4EF] rounded-lg p-2.5 mr-3">
+                    <i class="fa-solid fa-mobile-screen h-5 w-5 text-[#FF5F00] flex justify-center items-center"></i>
+                </div>
+                <div>
+                    <p class="font-semibold text-sm text-[#6B6C70]">App WLAN FIBRA</p>
+                    <p class="text-xs text-[#6B6C70]">Disponível para iOS, gere seu 2ª via, pague aqui, acompanhe nossos serviços e muito mais! <a href="https://wlanfibra.com.br/#app-wlan" class="font-bold text-[#FF5F00]">Baixe agora</a></p>
+                </div>
+            </div>
+            
+            <p class="text-xs text-center text-[#484A4D] mt-6">© 2023 WLAN FIBRA. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
